@@ -34,7 +34,19 @@ Decision: I chose to implement seat availability management inside the Reservati
 Reasoning:
 This keeps validation and creation together in one place, preventing race conditions and maintaining clean code architecture.
 
+## Screenshots
 
+### 1. Successful Reservation (201 Created)
+
+![Successful Reservation](screenshots/Successful_reservation.png)
+
+### 2. Overbooking Failure (400 Bad Request)
+
+![Overbooking Failure](screenshots/Overbooking_failure.png)
+
+### 3. Successful Cancellation (200 OK)
+
+![Successful Cancellation](screenshots/Successful_cancellation.png)
 
 
 
